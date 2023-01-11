@@ -1,228 +1,424 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>동구밭 - 비장애인과 장애인이 함께 만드는 지속가능한 일상</title>
-<link rel="stylesheet" href="./index.css">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Noto+Sans+KR&display=swap" rel="stylesheet">
-<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
-</head>
-<body>
-        <!-- //header -->
-    
-        <div class="dgbNavi">
-            <div class="dgbTab">
-                <ul>
-                    <li><a href="./index.html" class="best-focus" id="best" data-ga-category="PC_동구밭_메인" data-ga-action="Navigation" data-ga-label="Best" onclick="CH(1)">베스트상품</a></li>
-                    <li><a href="./hair.html" class="hair" id="hair" data-ga-category="PC_동구밭_메인" data-ga-action="Navigation" data-ga-label="Hair" onclick="CH(2)">헤어</a></li>
-                    <li><a href="#" class="face_body" id="face_body" data-ga-category="PC_동구밭_메인" data-ga-action="Navigation" data-ga-label="Face · Body" onclick="CH(3)">페이스 · 바디</a></li>
-                    <li><a href="#" class="kitchen_living" id="kitchen_living" data-ga-category="PC_동구밭_메인" data-ga-action="Navigation" data-ga-label="Kitchen & Living" onclick="CH(4)">주방 · 리빙</a></li>
-                    <li><a href="#" class="bath" id="bath" data-ga-category="PC_동구밭_메인" data-ga-action="Navigation" data-ga-label="Bath" onclick="CH(5)">배쓰</a></li>
-                    <li><a href="#" class="pet" id="pet" data-ga-category="PC_동구밭_메인" data-ga-action="Navigation" data-ga-label="Pet" onclick="CH(6)">반려동물</a></li>
-                    <li><a href="#" class="set" id="set" data-ga-category="PC_동구밭_메인" data-ga-action="Navigation" data-ga-label="Set" onclick="CH(7)">세트</a></li>
-                    <li><a href="#" class="acc" id="acc" data-ga-category="PC_동구밭_메인" data-ga-action="Navigation" data-ga-label="Acc" onclick="CH(8)">악세사리</a></li>
-                </ul>
-            </div>
-            <div class="dgbLogo"><a href="./index.html"><img src="./img/donggu/01e8d667baac24da1f70c3d45631ff91_33145.png" alt=""></a></div>
-        </div>
-        <div class="dgbWrap">
-            <div class="dgbslide">
-                <div class="dgbslideCenter">
-                    <!-- <p class="cmt">컬러 장인 바닐라코의 색조 메이크업 비바이바닐라</p> -->
-                    <!--<p class="ttl"><img src="./img/top_image.jpg" alt=""></p>-->
-                    <p class="ttl"><img src="./img/slide/top-list01.jpg" alt=""></p>
-                <!-- 	<p class="cmt">FUN, EASY and QUICK</p> -->
-                </div>
-            </div>
-            <div class="BbyPdtList" id="BbyLip">
-                <p class="ttl"><img src="./img/category/best_h.png" alt=""></p>
-        <ul>
-            <li class="BbyPromoType">
-                <div class="BbyCttBox">
-                    <div class="BbyViewBox">
-                        <img src="./img/product/brand.png" alt=""></div>
-                    </div>
-                </li>
-                    <li>
-                        <div class="BbyCttBox">
-                            <div class="BbyViewBox">
-                                <a href="./product1.html" data-ga-category="PC_BbyBANILA_메인" data-ga-action="동구밭 올바른 샴푸바" data-ga-label="구매하기_동구밭 올바른 샴푸바 건성용">
-                                    <img src="./img/product/1000000010_076.png" alt="">
-                                        <img src="./img/product/1000000010_main_076.png" class="BbyPdtCover" alt=""></a>
-                                    </div>
-                                    <div class="BbyInfoBox">
-                                        <p class="BbyPdtName">동구밭 올바른 샴푸바</p>
-                                        <p class="BbyPdtOption">건성용</p>
-                                        <p class="BbyPdtPrice">7,600원</p>
-                                        <a href="./product1.html" data-ga-category="PC_BbyBANILA_메인" data-ga-action="동구밭 올바른 샴푸바" data-ga-label="구매하기_동구밭 올바른 샴푸바 건성용" class="BbyPdtLink">
-                                            <span>구매하기</span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="BbyCttBox">
-                                    <div class="BbyViewBox">
-                                        <a href="#" data-ga-category="PC_BbyBANILA_메인" data-ga-action="동구밭 올바른 샴푸바" data-ga-label="구매하기_동구밭 올바른 샴푸바 중건성용">
-                                            <img src="./img/product/1000000172_080.png" alt="">
-                                                <img src="./img/product/1000000172_main_080.png" class="BbyPdtCover" alt=""></a>
-                                            </div>
-                                            <div class="BbyInfoBox">
-                                                <p class="BbyPdtName">동구밭 올바른 샴푸바</p>
-                                                <p class="BbyPdtOption">중건성용</p>
-                                                <p class="BbyPdtPrice">7,600원</p>
-                                                <a href="#" data-ga-category="PC_BbyBANILA_메인" data-ga-action="동구밭 올바른 샴푸바" data-ga-label="구매하기_동구밭 올바른 샴푸바 중건성용" class="BbyPdtLink">
-                                                    <span>구매하기</span>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="BbyCttBox">
-                                            <div class="BbyViewBox">
-                                                <a href="#" data-ga-category="PC_BbyBANILA_메인" data-ga-action="동구밭 올바른 샴푸바" data-ga-label="구매하기_동구밭 올바른 샴푸바 지성용">
-                                                    <img src="./img/product/1000000011_014.png" alt="">
-                                                        <img src="./img/product/1000000011_main_014.png" class="BbyPdtCover" alt=""></a>
-                                                    </div>
-                                                    <div class="BbyInfoBox">
-                                                        <p class="BbyPdtName">동구밭 올바른 샴푸바</p>
-                                                        <p class="BbyPdtOption">지성용</p>
-                                                        <p class="BbyPdtPrice">7,600원</p>
-                                                        <a href="#" data-ga-category="PC_BbyBANILA_메인" data-ga-action="동구밭 올바른 샴푸바" data-ga-label="구매하기_동구밭 올바른 샴푸바 지성용" class="BbyPdtLink">
-                                                            <span>구매하기</span>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="BbyCttBox">
-                                                    <div class="BbyViewBox">
-                                                        <a href="./product.html" data-ga-category="PC_BbyBANILA_메인" data-ga-action="동구밭 설거지비누 워싱바" data-ga-label="구매하기_동구밭 풋귤 천연 설거지비누 워싱바">
-                                                            <img src="./img/product/1000000171_034.png" alt="">
-                                                                <img src="./img/product/1000000171_main_034.png" class="BbyPdtCover" alt=""></a>
-                                                            </div>
-                                                            <div class="BbyInfoBox">
-                                                                <p class="BbyPdtName">동구밭 설거지비누 워싱바</p>
-                                                                <p class="BbyPdtOption">천연 풋귤</p>
-                                                                <p class="BbyPdtPrice">4,000원</p>
-                                                                <a href="./product.html" data-ga-category="PC_BbyBANILA_메인" data-ga-action="동구밭 설거지비누 워싱바" data-ga-label="구매하기_동구밭 풋귤 천연 설거지비누 워싱바" class="BbyPdtLink">
-                                                                    <span>구매하기</span>
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                    </li>
-                                                    <li>
-                                                        <div class="BbyCttBox">
-                                                            <div class="BbyViewBox">
-                                                                <a href="#" data-ga-category="PC_BbyBANILA_메인" data-ga-action="동구밭 설거지비누 워싱바" data-ga-label="구매하기_동구밭 올바른 설거지 워싱바">
-                                                                    <img src="./img/product/1000000020_061.png" alt="">
-                                                                        <img src="./img/product/1000000020_main_061.png" class="BbyPdtCover" alt=""></a>
-                                                                    </div>
-                                                                    <div class="BbyInfoBox">
-                                                                        <p class="BbyPdtName">동구밭 올바른 설거지 워싱바</p>
-                                                                        <p class="BbyPdtOption">500g</p>
-                                                                        <p class="BbyPdtPrice">14,000원</p>
-                                                                        <a href="#" data-ga-category="PC_BbyBANILA_메인" data-ga-action="동구밭 설거지비누 워싱바" data-ga-label="구매하기_동구밭 올바른 설거지 워싱바" class="BbyPdtLink">
-                                                                            <span>구매하기</span>
-                                                                        </a>
-                                                                    </div>
-                                                                </div>
-                                                            </li>
-            
-                                                            <li class="BbyPromoType">
-                                                                <div class="BbyCttBox">
-                                                                    <div class="BbyViewBox">
-                                                                        <img src="./img/product/washing01.png" alt=""></div>
-                                                                    </div>
-                                                                </li>
-                                                                <li>
-                                                                    <div class="BbyCttBox">
-                                                                        <div class="BbyViewBox">
-                                                                            <a href="#" data-ga-category="PC_BbyBANILA_메인" data-ga-action="동구밭 설거지비누 워싱바" data-ga-label="구매하기_동구밭 올바른 설거지 워싱바">
-                                                                                <img src="./img/product/1000000019_main_09.png" alt="">
-                                                                                    <img src="./img/product/1000000020_main_061.png" class="BbyPdtCover" alt=""></a>
-                                                                                </div>
-                                                                                <div class="BbyInfoBox">
-                                                                                    <p class="BbyPdtName">동구밭 올바른 설거지 워싱바</p>
-                                                                                    <p class="BbyPdtOption">150g</p>
-                                                                                    <p class="BbyPdtPrice">6,000원</p>
-                                                                                    <a href="#" data-ga-category="PC_BbyBANILA_메인" data-ga-action="동구밭 설거지비누 워싱바" data-ga-label="구매하기_동구밭 올바른 설거지 워싱바" class="BbyPdtLink">
-                                                                                        <span>구매하기</span>
-                                                                                    </a>
-                                                                                </div>
-                                                                            </div>
-                                                                        </li>
-            </div>
-        </div>
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Noto+Sans+KR&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  </head>
+  <body>
+    <!-- //header -->
 
-        <!-- 팝업창 -->
+    <div class="dgbNavi">
+      <div class="dgbTab">
+        <ul>
+          <li>
+            <a
+              href="./index.html"
+              class="best-focus"
+              id="best"
+              data-ga-category="PC_동구밭_메인"
+              data-ga-action="Navigation"
+              data-ga-label="Best"
+              onclick="CH(1)"
+              >베스트상품</a
+            >
+          </li>
+          <li>
+            <a
+              href="./hair.html"
+              class="hair"
+              id="hair"
+              data-ga-category="PC_동구밭_메인"
+              data-ga-action="Navigation"
+              data-ga-label="Hair"
+              onclick="CH(2)"
+              >헤어</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="face_body"
+              id="face_body"
+              data-ga-category="PC_동구밭_메인"
+              data-ga-action="Navigation"
+              data-ga-label="Face · Body"
+              onclick="CH(3)"
+              >페이스 · 바디</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="kitchen_living"
+              id="kitchen_living"
+              data-ga-category="PC_동구밭_메인"
+              data-ga-action="Navigation"
+              data-ga-label="Kitchen & Living"
+              onclick="CH(4)"
+              >주방 · 리빙</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="bath"
+              id="bath"
+              data-ga-category="PC_동구밭_메인"
+              data-ga-action="Navigation"
+              data-ga-label="Bath"
+              onclick="CH(5)"
+              >배쓰</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="pet"
+              id="pet"
+              data-ga-category="PC_동구밭_메인"
+              data-ga-action="Navigation"
+              data-ga-label="Pet"
+              onclick="CH(6)"
+              >반려동물</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="set"
+              id="set"
+              data-ga-category="PC_동구밭_메인"
+              data-ga-action="Navigation"
+              data-ga-label="Set"
+              onclick="CH(7)"
+              >세트</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="acc"
+              id="acc"
+              data-ga-category="PC_동구밭_메인"
+              data-ga-action="Navigation"
+              data-ga-label="Acc"
+              onclick="CH(8)"
+              >악세사리</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="dgbLogo">
+        <a href="./index.html"
+          ><img
+            src="./img/donggu/01e8d667baac24da1f70c3d45631ff91_33145.png"
+            alt=""
+        /></a>
+      </div>
+    </div>
+    <div class="dgbWrap">
+      <div class="dgbslide">
+        <div class="dgbslideCenter">
+          <p class="ttl"><img src="./img/slide/top-list01.jpg" alt="" /></p>
+        </div>
+      </div>
+      <div class="BbyPdtList" id="BbyLip">
+        <p class="ttl"><img src="./img/category/best_h.png" alt="" /></p>
+        <ul>
+          <li class="BbyPromoType">
+            <div class="BbyCttBox">
+              <div class="BbyViewBox">
+                <img src="./img/product/brand.png" alt="" />
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="BbyCttBox">
+              <div class="BbyViewBox">
+                <a
+                  href="./product1.html"
+                  data-ga-category="PC_동구밭_메인"
+                  data-ga-action="동구밭 올바른 샴푸바"
+                  data-ga-label="구매하기_동구밭 올바른 샴푸바 건성용"
+                >
+                  <img src="./img/product/1000000010_076.png" alt="" />
+                  <img
+                    src="./img/product/1000000010_main_076.png"
+                    class="BbyPdtCover"
+                    alt=""
+                /></a>
+              </div>
+              <div class="BbyInfoBox">
+                <p class="BbyPdtName">동구밭 올바른 샴푸바</p>
+                <p class="BbyPdtOption">건성용</p>
+                <p class="BbyPdtPrice">7,600원</p>
+                <a
+                  href="./product1.html"
+                  data-ga-category="PC_동구밭_메인"
+                  data-ga-action="동구밭 올바른 샴푸바"
+                  data-ga-label="구매하기_동구밭 올바른 샴푸바 건성용"
+                  class="BbyPdtLink"
+                >
+                  <span>구매하기</span>
+                </a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="BbyCttBox">
+              <div class="BbyViewBox">
+                <a
+                  href="#"
+                  data-ga-category="PC_동구밭_메인"
+                  data-ga-action="동구밭 올바른 샴푸바"
+                  data-ga-label="구매하기_동구밭 올바른 샴푸바 중건성용"
+                >
+                  <img src="./img/product/1000000172_080.png" alt="" />
+                  <img
+                    src="./img/product/1000000172_main_080.png"
+                    class="BbyPdtCover"
+                    alt=""
+                /></a>
+              </div>
+              <div class="BbyInfoBox">
+                <p class="BbyPdtName">동구밭 올바른 샴푸바</p>
+                <p class="BbyPdtOption">중건성용</p>
+                <p class="BbyPdtPrice">7,600원</p>
+                <a
+                  href="#"
+                  data-ga-category="PC_동구밭_메인"
+                  data-ga-action="동구밭 올바른 샴푸바"
+                  data-ga-label="구매하기_동구밭 올바른 샴푸바 중건성용"
+                  class="BbyPdtLink"
+                >
+                  <span>구매하기</span>
+                </a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="BbyCttBox">
+              <div class="BbyViewBox">
+                <a
+                  href="#"
+                  data-ga-category="PC_동구밭_메인"
+                  data-ga-action="동구밭 올바른 샴푸바"
+                  data-ga-label="구매하기_동구밭 올바른 샴푸바 지성용"
+                >
+                  <img src="./img/product/1000000011_014.png" alt="" />
+                  <img
+                    src="./img/product/1000000011_main_014.png"
+                    class="BbyPdtCover"
+                    alt=""
+                /></a>
+              </div>
+              <div class="BbyInfoBox">
+                <p class="BbyPdtName">동구밭 올바른 샴푸바</p>
+                <p class="BbyPdtOption">지성용</p>
+                <p class="BbyPdtPrice">7,600원</p>
+                <a
+                  href="#"
+                  data-ga-category="PC_동구밭_메인"
+                  data-ga-action="동구밭 올바른 샴푸바"
+                  data-ga-label="구매하기_동구밭 올바른 샴푸바 지성용"
+                  class="BbyPdtLink"
+                >
+                  <span>구매하기</span>
+                </a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="BbyCttBox">
+              <div class="BbyViewBox">
+                <a
+                  href="./product.html"
+                  data-ga-category="PC_동구밭_메인"
+                  data-ga-action="동구밭 설거지비누 워싱바"
+                  data-ga-label="구매하기_동구밭 풋귤 천연 설거지비누 워싱바"
+                >
+                  <img src="./img/product/1000000171_034.png" alt="" />
+                  <img
+                    src="./img/product/1000000171_main_034.png"
+                    class="BbyPdtCover"
+                    alt=""
+                /></a>
+              </div>
+              <div class="BbyInfoBox">
+                <p class="BbyPdtName">동구밭 설거지비누 워싱바</p>
+                <p class="BbyPdtOption">천연 풋귤</p>
+                <p class="BbyPdtPrice">4,000원</p>
+                <a
+                  href="./product.html"
+                  data-ga-category="PC_동구밭_메인"
+                  data-ga-action="동구밭 설거지비누 워싱바"
+                  data-ga-label="구매하기_동구밭 풋귤 천연 설거지비누 워싱바"
+                  class="BbyPdtLink"
+                >
+                  <span>구매하기</span>
+                </a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="BbyCttBox">
+              <div class="BbyViewBox">
+                <a
+                  href="#"
+                  data-ga-category="PC_동구밭_메인"
+                  data-ga-action="동구밭 설거지비누 워싱바"
+                  data-ga-label="구매하기_동구밭 올바른 설거지 워싱바"
+                >
+                  <img src="./img/product/1000000020_061.png" alt="" />
+                  <img
+                    src="./img/product/1000000020_main_061.png"
+                    class="BbyPdtCover"
+                    alt=""
+                /></a>
+              </div>
+              <div class="BbyInfoBox">
+                <p class="BbyPdtName">동구밭 올바른 설거지 워싱바</p>
+                <p class="BbyPdtOption">500g</p>
+                <p class="BbyPdtPrice">14,000원</p>
+                <a
+                  href="#"
+                  data-ga-category="PC_동구밭_메인"
+                  data-ga-action="동구밭 설거지비누 워싱바"
+                  data-ga-label="구매하기_동구밭 올바른 설거지 워싱바"
+                  class="BbyPdtLink"
+                >
+                  <span>구매하기</span>
+                </a>
+              </div>
+            </div>
+          </li>
+
+          <li class="BbyPromoType">
+            <div class="BbyCttBox">
+              <div class="BbyViewBox">
+                <img src="./img/product/washing01.png" alt="" />
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="BbyCttBox">
+              <div class="BbyViewBox">
+                <a
+                  href="#"
+                  data-ga-category="PC_동구밭_메인"
+                  data-ga-action="동구밭 설거지비누 워싱바"
+                  data-ga-label="구매하기_동구밭 올바른 설거지 워싱바"
+                >
+                  <img src="./img/product/1000000019_main_09.png" alt="" />
+                  <img
+                    src="./img/product/1000000020_main_061.png"
+                    class="BbyPdtCover"
+                    alt=""
+                /></a>
+              </div>
+              <div class="BbyInfoBox">
+                <p class="BbyPdtName">동구밭 올바른 설거지 워싱바</p>
+                <p class="BbyPdtOption">150g</p>
+                <p class="BbyPdtPrice">6,000원</p>
+                <a
+                  href="#"
+                  data-ga-category="PC_동구밭_메인"
+                  data-ga-action="동구밭 설거지비누 워싱바"
+                  data-ga-label="구매하기_동구밭 올바른 설거지 워싱바"
+                  class="BbyPdtLink"
+                >
+                  <span>구매하기</span>
+                </a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- 팝업창 -->
     <div class="popup_wrap">
-        <div class="popup_bg active"></div>
+      <div class="popup_bg active"></div>
       <div class="popup_box active">
         <div class="popup_tit">해상도 지원 안내창</div>
-        <div class="txt-box">해당 사이트는 <span class="txt-box-port">포트폴리오</span>이며,<br><span class="txt-box-port">1920px 해상도에 최적화</span> 되었습니다.</div>
+        <div class="txt-box">
+          해당 사이트는
+          <span class="txt-box-port">포트폴리오</span>이며,<br /><span
+            class="txt-box-port"
+            >1920px 해상도에 최적화</span
+          >
+          되었습니다.
+        </div>
         <div class="btn-box row">
-          <input class="cell" type="checkbox">
+          <input class="cell" type="checkbox" />
           <p class="btn-txt cell">오늘 하루 열지 않기</p>
           <p class="btn-close cell">닫기</p>
         </div>
       </div>
     </div>
 
-        <script language ="javascript">
-            function CH(num){
-                console.log ("확인")
-                document.getElementById('best').className = 'best';
-                document.getElementById('hair').className = 'hair';
-                document.getElementById('face_body').className = 'face_body';
-                document.getElementById('kitchen_living').className = 'kitchen_living';
-                document.getElementById('bath').className = 'bath';
-                document.getElementById('pet').className = 'pet';
-                document.getElementById('set').className = 'set';
-                document.getElementById('acc').className = 'acc';
-                switch(num) {
-                    case 1: // best
-                    document.getElementById('best').className = 'best-focus';
-                        break
-                    case 2:   // hair 
-                    document.getElementById('hair').className = 'hair-focus';
-                        break
-                    case 3: // face_body
-                    document.getElementById('face_body').className = 'face_body-focus';
-                        break
-                    case 4: // kitchen_living
-                    document.getElementById('kitchen_living').className = 'kitchen_living-focus';
-                        break    
-                    case 5: // bath
-                        document.getElementById('bath').className = 'bath-focus';
-                        break
-                    case 6:   // pet
-                    document.getElementById('pet').className = 'pet-focus';
-                        break
-                    case 7: // set
-                    document.getElementById('set').className = 'set-focus';
-                        break
-                    case 8: // acc
-                    document.getElementById('acc').className = 'acc-focus';
-                        break                            
+    <script>
+      function CH(num) {
+        console.log("확인");
+        document.getElementById("best").className = "best";
+        document.getElementById("hair").className = "hair";
+        document.getElementById("face_body").className = "face_body";
+        document.getElementById("kitchen_living").className = "kitchen_living";
+        document.getElementById("bath").className = "bath";
+        document.getElementById("pet").className = "pet";
+        document.getElementById("set").className = "set";
+        document.getElementById("acc").className = "acc";
+        switch (num) {
+          case 1: // best
+            document.getElementById("best").className = "best-focus";
+            break;
+          case 2: // hair
+            document.getElementById("hair").className = "hair-focus";
+            break;
+          case 3: // face_body
+            document.getElementById("face_body").className = "face_body-focus";
+            break;
+          case 4: // kitchen_living
+            document.getElementById("kitchen_living").className =
+              "kitchen_living-focus";
+            break;
+          case 5: // bath
+            document.getElementById("bath").className = "bath-focus";
+            break;
+          case 6: // pet
+            document.getElementById("pet").className = "pet-focus";
+            break;
+          case 7: // set
+            document.getElementById("set").className = "set-focus";
+            break;
+          case 8: // acc
+            document.getElementById("acc").className = "acc-focus";
+            break;
 
-                    default:
-                        
-                        break
-                }
-                //document.getElementById('mainmenu2').src = "http://tagin.net/img/logo.gif";
-                //document.getElementById('mainmenu3').src = "http://tagin.net/img/logo.gif";
-                //document.getElementById('mainmenu' + num).src = "http://tagin.net/img/starpoint.gif";
-            }
-            </script>
-            <script src="./js/popup.js"></script>
-</body>
-
+          default:
+            break;
+        }
+        //document.getElementById('mainmenu2').src = "http://tagin.net/img/logo.gif";
+        //document.getElementById('mainmenu3').src = "http://tagin.net/img/logo.gif";
+        //document.getElementById('mainmenu' + num).src = "http://tagin.net/img/starpoint.gif";
+      }
+    </script>
+    <script src="./js/popup.js"></script>
+  </body>
 </html>
